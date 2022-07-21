@@ -5,25 +5,39 @@
 
 body {
     background-color: #2e3440;
-
+    line-height: 1.6;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
 }
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 h1 {
     font-family: 'Roboto Mono NF';
     font-size: 45px;
-    margin-left: 90px;
-    margin-top: 85px;
     color: #D8DEE9;
+    position: relative; top: 350px; left: 250px;
 }
 
 h3 {
     font-family: 'Roboto Mono NF';
-    margin-left: 85px;
     font-size: 15px;
     color:#D8DEE9;
-    position: relative; bottom: 21px;
+    position: relative; top: 285px; left: 250px;
 }
 
-h11 {
-    font-size: 80px;
-    position: relative; left: 120px; top: 200px;
+.container {
+    width: 100%;
+    height: 100%
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
 }
