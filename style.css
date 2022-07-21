@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Roboto Mono NF';
+    src: url('src/ttf/Roboto/Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #2e3440;
+
+}
+h1 {
+    font-family: 'Roboto Mono NF';
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: 85px;
+    color: #D8DEE9;
+}
+
+h3 {
+    font-family: 'Roboto Mono NF';
+    margin-left: 85px;
+    font-size: 15px;
+    color:#D8DEE9;
+    position: relative; bottom: 21px;
+}
+
+h11 {
+    font-size: 80px;
+    position: relative; left: 120px; top: 200px;
+}
