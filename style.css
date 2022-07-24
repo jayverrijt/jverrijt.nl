@@ -68,3 +68,18 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
+
+/* Color Classes */
+.namechange {
+    color: #5E81AC;
+}
+
+/* Images */
+.instaicon {
+    position: relative; left: 1850px; top: 500px;
+
+}
+.snapicon {
+    position: relative; left: 1800px; top: 464px;
+
+}
