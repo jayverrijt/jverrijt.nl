@@ -1,0 +1,27 @@
+/* Lettertypen */
+@font-face {
+    font-family: 'Roboto Mono NF';
+    src: url('../src/ttf/Roboto/Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #2e3440;
+}
+
+h1 {
+    font-family: 'Roboto Mono NF';
+    color: #d8dee9;
+    font-size: 35px;
+    margin: auto;
+    width: 50%;
+    padding: 10px
+}
+
+p1 {
+    font-family: 'Roboto Mono NF';
+    color: #d8dee9;
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
