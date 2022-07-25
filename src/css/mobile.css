@@ -1,7 +1,7 @@
 /* Lettertypen */
 @font-face {
     font-family: 'Roboto Mono NF';
-    src: url('../src/ttf/Roboto/Regular.ttf') format('truetype');
+    src: url('../fonts/Roboto.ttf') format('truetype');
 }
 
 body {

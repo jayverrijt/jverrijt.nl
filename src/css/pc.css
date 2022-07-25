@@ -1,7 +1,7 @@
 /* Lettertypen */
 @font-face {
     font-family: 'Roboto Mono NF';
-    src: url('src/ttf/Roboto/Regular.ttf') format('truetype');
+    src: url('../fonts/Roboto.ttf') format('truetype');
 }
 
 /* Core Styling */
@@ -82,4 +82,8 @@ a, a:hover, a:focus, a:active {
 .snapicon {
     position: relative; left: 1800px; top: 464px;
 
+}
+
+.linkedinicon {
+    position: relative; top: 428px; left: 1750px;
 }
