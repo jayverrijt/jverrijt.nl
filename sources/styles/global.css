@@ -1,0 +1,84 @@
+/* Importeren van andere CSS bestanden om het lezen van de styles simpeler te maken
+ */
+
+ @import "colors.css"; /* Kleuren Schemas */
+ @import "smoothscrolling.css"; /* Smooth Scrolling Effect */
+ @import "draw.css"; /* 1080p Stylesheet*/
+
+ @font-face {
+     font-family: 'Roboto Mono NF';
+     src: url('../font/Roboto.ttf') format('truetype');
+ }
+
+* {
+    font-family: Roboto Mono NF;
+    background-color: var(--bg);
+}
+
+.sidemenuPageNav {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--fg);
+    font-size: 20px;
+}
+
+a a:hover a:focus a:active {
+    color: var(--fg);
+    text-decoration: none;
+}
+
+#homeNav {
+    float: right;
+    bottom: 25%;
+    font-family: 'Roboto Mono NF';
+    position: absolute;
+    right: 10%;
+} 
+
+#aboutNav {
+    float: right;
+    bottom: 22.5%;
+    font-family: 'Roboto Mono NF';
+    position: absolute;
+    right: 10%;
+}
+
+#creaNav {
+    float: right;
+    bottom: 19.9%;
+    font-family: 'Roboto Mono NF';
+    position: absolute;
+    right: 10%;
+}
+
+#expNav {
+    float: right;
+    bottom: 17.2%;
+    font-family: 'Roboto Mono NF';
+    position: absolute;
+    right: 10%;
+}
+
+.socialbuttons {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+.landingHeader {
+    position: absolute;
+    top: 35%;
+    float: left;
+    left: 15%;
+}
+
+.landingParagraph {
+    position: absolute;
+    float: left;
+    left: 15%;
+    top: 45%;
+    height: 12%;
+    width: 28%;
+}
