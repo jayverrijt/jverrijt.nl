@@ -22,11 +22,6 @@
     font-size: 20px;
 }
 
-a a:hover a:focus a:active {
-    color: var(--fg);
-    text-decoration: none;
-}
-
 #homeNav {
     float: right;
     bottom: 25%;
