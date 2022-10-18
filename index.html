@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sources/styles/global.css">
     <link rel="shortcut icon" href="sources/afb/ico/favicon.png">
+    <script src="sources/javascript/tabs.js"></script>
     <title>Jay</title>
 </head>
 <body>
@@ -18,10 +19,11 @@
                 </div>
                <div class="landingParagraph">
                     <p style="color:var(--fg); height: 100%; width: 100%; font-size:12px">
-                       Test 
+                       Ik ben een ICT Beheerder en Software Developer in opleiding uit Helmond,<br>
+		       Ik ben geintreseerd in frontend, backend, fullstack en gamedevelopment.
                     </p>
                </div>
-           </div>
+            </div>
 
             <!-- Side Menu op landingpagina-->
             <div class="sidemenu">
@@ -53,60 +55,68 @@
     <!-- Over Mij pagina-->
     <div class="aboutmesection">
         <section id="about">
-            <div class="aboutLeft"></div>
-            <div class="sidemenu">
-                <a class="sidemenuPageNav" id="homeNav" href="#home">/Start</a>
-                <a style="color: var(--nord10);" class="sidemenuPageNav" id="aboutNav" href="#about">/Over Mij</a>
-                <a class="sidemenuPageNav" id="creaNav" href="#expirience"> /Projecten</a>
-                <a class="sidemenuPageNav" id="expNav" href="#creations">/Ervaringen</a>
-
-                <!-- Social Buttons -->
-                <div class="socialbuttons">
-                    <a href="https://github.com/jayverrijt/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="GitHub" src="sources/afb/sidemenu-icons/github.png">
-                    </a>
-                    <a href="https://linkedin.com/in/jayverrijt0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="LinkedIn" src="sources/afb/sidemenu-icons/linkedin.svg">
-                    </a>
-                    <a href="https://snapchat.com/add/jayverrijt_0">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Snapchat" src="sources/afb/sidemenu-icons/snapchat.svg">
-                    </a>
-                    <a href="https://instagram.com/jayverrijt_0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Instagram" src="sources/afb/sidemenu-icons/instagram.svg">
-                    </a>
+            <div class="aboutLeft">
+                <div class="HeaderPos">
+                    <h1 id="aboutMeH1">/Over Mij</h1>
                 </div>
-
+                <div class="divTxtPhoto">
+                    <div class="TxtP">
+                        <p class="pStyle">
+                            Ik ben in mijn 1e jaar als Software Developer bij het <span><a class="aHrefColFix" href="https://www.summacollege.nl">Summa College</a></span> in <span><a class='aHrefColFix' href="https://www.eindhoven.nl">Eindhoven</a></span>.<br>
+                            Na ik klaar ben met mijn opleiding ga ik mijn HBO doen bij de <span><a href="https://hu.nl/" class="aHrefColFix">Hogeschool van Utrecht</a></span>.<br>
+                            Mijn doel voor deze opleiding is nog een stage bij <span><a href="https://asml.com" class="aHrefColFix">ASML</a></span> in <span><a href="https://www.veldhoven.nl" class="aHrefColFix">Veldhoven</a></span> te krijgen.
+                        </p>
+                        <p class="pStyle">Hier is alles waar ik al mee gewerkt heb.</p>
+                        <div class="divUOL">
+                            <ul id="firstUL">
+                                <li>HTML CSS</li>
+                                <li>Windows Desktop & Server</li>
+                                <li>Linux (Server), BSD</li>
+                            </ul>
+                            <ul id="secondUL">
+                                <li>JavaScript</li>
+                                <li>C#</li>
+                                <li>Git</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="PhotoMe">
+                        <img src="sources/afb/ico/me.jpeg" alt="me">
+                    </div>
+                </div>
             </div>
-
         </section>
     </div>
 
     <!-- Ervaringen Pagina -->
     <div class="expirsection">
         <section id="expirience">
-            <div class="ervaringLeft"></div>
-             <div class="sidemenu">
-                <a class="sidemenuPageNav" id="homeNav" href="#home">/Start</a>
-                <a class="sidemenuPageNav" id="aboutNav" href="#about">/Over Mij</a>
-                <a style="color: var(--nord10);" class="sidemenuPageNav" id="creaNav" href="#expirience"> /Projecten</a>
-                <a class="sidemenuPageNav" id="expNav" href="#creations">/Ervaringen</a>
+            <div class="ervaringLeft">
 
-                <!-- Social Buttons -->
-                <div class="socialbuttons">
-                    <a href="https://github.com/jayverrijt/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="GitHub" src="sources/afb/sidemenu-icons/github.png">
-                    </a>
-                    <a href="https://linkedin.com/in/jayverrijt0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="LinkedIn" src="sources/afb/sidemenu-icons/linkedin.svg">
-                    </a>
-                    <a href="https://snapchat.com/add/jayverrijt_0">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Snapchat" src="sources/afb/sidemenu-icons/snapchat.svg">
-                    </a>
-                    <a href="https://instagram.com/jayverrijt_0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Instagram" src="sources/afb/sidemenu-icons/instagram.svg">
-                    </a>
+                <h1 class="expFixH1">/Ervaringen</h1>
+                <div class="container">
+                    <div class="tabBtns">
+                        <div class="btn show" onclick="showContents(this, 'content_1')">ICT-Beheer</div>
+                        <div class="btn" onclick="showContents(this, 'content_2')">Software Developer</div>
+                        <div class="btn" onclick="showContents(this, 'content_3')">Olympia</div>
+                    </div>
+
+                    <div class="tabContents">
+                        <div class="contents show" id="content_1">
+                            <h2>Medewerker ICT Support //<section style="color: var(--nord10);">Summa College Eindhoven</section></h2>
+                            <h5>Summa Coll, Eindhoven</h5>
+                        </div>
+                        <div class="contents" id="content_2">
+                            <h2>Software Developer //<section style="color: var(--nord10);">Summa College Eindhoven</section></h2>
+                            <p>Test</p>
+                        </div>
+                        <div class="contents" id="content_3">
+                            <h2>Olympia Stage //<section style="color: var(--nord10);">Eindhoven Strijp-S</section></h2>
+                            <p>Test</p>
+                        </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </section>
     </div>
@@ -115,31 +125,14 @@
     <div class="creasection">
         <section id="creations">
             <div class="creaLeft"></div>
-             <div class="sidemenu">
-                <a class="sidemenuPageNav" id="homeNav" href="#home">/Start</a>
-                <a class="sidemenuPageNav" id="aboutNav" href="#about">/Over Mij</a>
-                <a class="sidemenuPageNav" id="creaNav" href="#expirience"> /Projecten</a>
-                <a style="color: var(--nord10);" class="sidemenuPageNav" id="expNav" href="#creations">/Ervaringen</a>
-
-                <!-- Social Buttons -->
-                <div class="socialbuttons">
-                    <a href="https://github.com/jayverrijt/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="GitHub" src="sources/afb/sidemenu-icons/github.png">
-                    </a>
-                    <a href="https://linkedin.com/in/jayverrijt0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="LinkedIn" src="sources/afb/sidemenu-icons/linkedin.svg">
-                    </a>
-                    <a href="https://snapchat.com/add/jayverrijt_0">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Snapchat" src="sources/afb/sidemenu-icons/snapchat.svg">
-                    </a>
-                    <a href="https://instagram.com/jayverrijt_0/">
-                        <input style="height: 30px; width: 30px;" type="image" alt="Instagram" src="sources/afb/sidemenu-icons/instagram.svg">
-                    </a>
-                </div>
-
             </div>
 
         </section>
+    </div>
+
+    <div class="myFooterDiv">
+        <footer class="myFooter"></footer>
+
     </div>
 
 
