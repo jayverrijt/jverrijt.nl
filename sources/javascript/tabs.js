@@ -10,3 +10,11 @@ function showContents(activeTab, contentsId) {
     activeTab.classList.add('show');
     document.getElementById(contentsId).classList.add('show');
 }
+
+function switchToMobile () {
+    if (screen.width <= 600) {
+      document.location = "mobile.html";
+    }
+}
+
+switchToMobile();
