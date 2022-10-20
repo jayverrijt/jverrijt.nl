@@ -27,21 +27,21 @@ body::-webkit-scrollbar {
 /* Sections */
 
     .homesection {
-        width:95%;
+        width:85%;
         height: 100%;
     }
 
     .aboutmesection {
-        height: 95%;
+        height: 85%;
         height: 60%;
     }
 
     .expirsection {
-        width: 95%;
+        width: 85%;
         height: 100%;
     }
     .creasection{
-        width: 95%;
+        width: 85%;
         height: 100%;
     }
 
