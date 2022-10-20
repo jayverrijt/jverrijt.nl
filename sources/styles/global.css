@@ -167,6 +167,7 @@
     position: relative;
     left: 10%;
     top: 0%;
+    width: 80%;
     color: var(--fg);
     font-size: 45px;
 }

@@ -1,8 +1,0 @@
-.menuBar {
-    border: solid 0px var(--bg);
-    background-color: var(--bg);
-    height: 15%;
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-}
