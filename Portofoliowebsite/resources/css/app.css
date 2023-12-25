@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: Arial;
+}
+.myNavbar {
+    height: 5%;
+    width: 100%;
+    background-color: #2e3440;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.myHeaderBar {
+    height: 20%;
+    width: 100%;
+    background-color: #2e3440;
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+.myTransparentHolder {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    margin: auto;
+    background-color: transparent;
+    border: solid 0;
+}
+.myHeaderTitle .myHeaderSubtitle{
+    margin: auto;
+}
+.myNavbarTitle {
+    height: 100%;
+    width: 10%;
+    background-color: transparent;
+    border: solid 0;
+}
+.myHeaderText {
+    margin: 0;
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    color: black;
+    font-size: 1.2vw;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.myNavbar li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 5%;
+}
+.myNavbar a {
+    text-decoration: none;
+    color: #5E81AC;
+    font-weight: bold;
+}
+.myContent {
+    height: 75%;
+    width: 100%;
+    background-color: #D8DEE9;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    overflow: hidden;
+}
+.skillIcon {
+    height: 30%;
+    width: 100%;
+    border: solid 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.skillText {
+    height: 20%;
+    width: 100%;
+    bottom: 0%;
+    border: solid 0;
+    position: relative;
+    display: inline-block;
+}
+.skillIconBG {
+    height: 100px;
+    width: 100px;
+    border: solid 0;
+    position: relative;
+    background-color: #5E81AC;
+    border-radius: 50%;
+    display: inline-block;
+}
+

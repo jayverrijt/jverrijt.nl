@@ -1,0 +1,66 @@
+html {
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.myScrollContainer {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: scroll;
+}
+
+.frame {
+    border: solid 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #D8DEE9;
+}
+
+.myProjectsHolder {
+    border: solid 0;
+    width: 100%;
+    height: 60%;
+    margin-top: 2%;
+    margin-bottom: auto;
+    background-color: #d8dee9;
+    display: flex;
+}
+.myProject {
+    border: solid 5px #5E81AC;
+    height: 100%;
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+.myProjectPictureHeader {
+    border: solid 0;
+    height: 70%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+.myProjectName {
+    border: solid 0;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    display: inline-block;
+}
+
+.myProjectName h1 {
+    font-size: 48px;
+    color: #5E81AC;
+    margin-left: 2%;
+}
+
+.myProjectName p {
+    font-size: 14px;
+    color: #2e3440;
+    margin-left: 2%;
+}
