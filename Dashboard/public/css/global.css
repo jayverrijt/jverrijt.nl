@@ -1,0 +1,14 @@
+:root {
+    --background: #2e3440;
+    --nord1: #3b4252;
+    --nord4: #d8dee9;
+    --nord10: #88c0d0;
+    --nord11: #81a1c1;
+    --nord12: #5e81ac;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}

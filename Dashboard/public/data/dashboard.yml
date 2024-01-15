@@ -1,0 +1,15 @@
+{
+  test: {
+    title: "Test App",
+    description: "Test Application for dashboard",
+    route: "/",
+    type: "app",
+  },
+  github:
+    {
+        title: "Github",
+        description: "Github",
+        route: "https://github.com/jayverrijt",
+        type: "link",
+    },
+}

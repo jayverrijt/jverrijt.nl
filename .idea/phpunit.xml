@@ -4,6 +4,7 @@
     <option name="directories">
       <list>
         <option value="$PROJECT_DIR$/Portofoliowebsite/tests" />
+        <option value="$PROJECT_DIR$/Dashboard/tests" />
       </list>
     </option>
   </component>

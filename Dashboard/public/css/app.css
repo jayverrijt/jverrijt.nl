@@ -1,0 +1,144 @@
+@import 'global.css';
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.bodyContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-color: var(--background);
+}
+
+.myNavbar {
+    width: 100%;
+    height: 5%;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#settingsBtn:hover, #settingsBtn:focus, #settingsBtn:active {
+    cursor: pointer;
+    color: #d8dee9;
+}
+
+.bodyContent {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background-color: var(--background);
+    bottom: 0;
+}
+.contentBuild {
+    width: 100%;
+    height: 30%;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+    background-color: var(--background);
+    border: solid 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+.contentBuildApp {
+    top: 15%;
+}
+.contentBuildURL {
+    top: 60%;
+}
+
+#appHeader {
+    top: 5%;
+    left: 2%;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: var(--nord12);
+    font-size: 24px;
+    display: inline-block;
+    overflow: visible;
+}
+#urlHeader {
+    top: 50%;
+    left: 2%;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: var(--nord12);
+    font-size: 24px;
+}
+.appHeader {
+    height: 100%;
+    border: solid 0;
+    background-color: var(--nord1);
+    width: 20%;
+    position: relative;
+    display: inline-block;
+    border-radius: 22px;
+}
+.appHeaderName {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 22px 22px 0 0;
+}
+.appHeaderName p {
+    margin: auto;
+    text-align: center;
+    font-size: 48px;
+    color: var(--nord12);
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(50%);
+}
+.appHeaderDescription {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+.appHeaderLink{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.appHeaderDescription p {
+    margin: auto;
+    font-size: 16px;
+    left: 2%;
+    position: relative;
+    color: var(--nord4);
+    font-family: 'Roboto', sans-serif;
+}
+
+.appHeaderLink a {
+    margin: auto;
+    font-size: 18px;
+    right: 2%;
+    position: relative;
+    color: var(--nord10);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    float: right;
+}

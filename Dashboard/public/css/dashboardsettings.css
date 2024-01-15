@@ -1,0 +1,108 @@
+@import "global.css";
+
+body {
+    margin: 0;
+}
+
+.contentContainer {
+    height: 100%;
+    width: 100%;
+    border: solid 0;
+    background-color: var(--background);
+    position: absolute;
+}
+.contentContainerLeft {
+    height: 100%;
+    width: 50%;
+    border: solid 0;
+    background-color: var(--background);
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: inline-block;
+}
+.contentContainerRight {
+    height: 100%;
+    width: 50%;
+    border: solid 0;
+    background-color: var(--background);
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+.contDashBuild {
+    height: 20%;
+    width: 90%;
+    left: 5%;
+    position: relative;
+    background-color: var(--nord12);
+    border: solid 0;
+    display: inline-block;
+    border-radius: 12px;
+}
+.contDashBuildName {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 22px 22px 0 0;
+}
+.contDashBuildName p {
+    margin: auto;
+    font-size: 32px;
+    color: var(--nord4);
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(50%);
+}
+.contDashBuildDescription {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    border-radius: 0 0 22px 22px;
+    bottom: 0;
+    left: 0;
+}
+.contDashBuildDescription p {
+    margin: auto;
+    font-size: 18px;
+    color: var(--nord4);
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(50%);
+}
+.settingsHolder {
+    height: 100%;
+    width: 5%;
+    border: solid 0;
+    background: var(--background);
+    border-radius: 0px 25px 25px 0px;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+}
+
+.cogWheel {
+    content: "\2699";
+    cursor: pointer;
+    position: fixed;
+    left: 0.5%;
+    font-size: 32px;
+    color: var(--nord4);
+}
+
+.goBack {
+    content: "\2190";
+    cursor: pointer;
+    font-size: 32px;
+    position: fixed;
+    left: 0.5%;
+    color: var(--nord4);
+}
+
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+}

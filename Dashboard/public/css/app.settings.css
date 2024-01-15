@@ -1,0 +1,104 @@
+@import "global.css";
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: var(--background);
+}
+
+/* Inloggen Pagina / Registratie */
+.cardConfig {
+    height: 100% !important;
+    width: 100%;
+    position: absolute !important;
+    margin: 0;
+    background-color: var(--background) !important;
+    border-radius: 0 !important;
+}
+
+.fontStyle {
+    font-family: 'Roboto', sans-serif !important;
+    color: var(--nord4);
+    font-size: 18px !important;
+}
+.inputStyle {
+    background-color: var(--nord12) !important;
+    color: var(--nord4) !important;
+    border: 0px solid var(--nord4) !important;
+    border-radius: 18px !important;
+    font-size: 18px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.btnLogin {
+    background-color: var(--nord12) !important;
+    color: var(--nord4) !important;
+    border: 0px solid var(--nord4) !important;
+    border-radius: 18px !important;
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Instellingen Pagina */
+
+.bodyContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    background-color: var(--background);
+}
+
+.myNavbar {
+    height: 5%;
+    width: 95%;
+    left: 0;
+    background-color: var(--nord12);
+    display: inline-block;
+}
+
+.myNavbarLogout {
+    height: 5%;
+    width: 5%;
+    right: 0;
+    background-color: var(--nord12);
+    display: inline-block;
+}
+
+.navEntry {
+    display: inline-block;
+    height: 100%;
+    width: 6%;
+    border: solid 0;
+    background-color: var(--nord12);
+    color: var(--nord4);
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.navEntry:active, .navEntry:hover, .navEntry:focus {
+    color: var(--nord1);
+}
+.active {
+    color: var(--nord1);
+}
+.content {
+    height: 95%;
+    width: 100%;
+    background-color: var(--background);
+    display: block;
+    position: absolute;
+    top: 5%;
+}
+
+a {
+   text-decoration: none;
+    color: inherit
+}
+
+.myLogoutbtn {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    color: var(--nord4);
+    text-align: center;
+}
